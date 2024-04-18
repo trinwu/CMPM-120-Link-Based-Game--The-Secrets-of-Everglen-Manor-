@@ -1,0 +1,294 @@
+{
+    "Title": "The Secrets of Everglen Manor",
+    "Credits": "Created by Trinity Wu (trawu@ucsc.edu).",
+    "InitialLocation": "Front Gate",
+    "Locations": {
+        "Front Gate": {
+            "Name": "Front Gate",
+            "Body": "You stand before the grand iron gates of Everglen Manor, a sense of mystique and wonder envelopes you. The entrance, flanked by ancient stone pillars adorned with intricate carvings, hinted at the secrets held within.",
+            "Choices": [
+                {
+                    "Text": "Enter the manor",
+                    "Target": "Foyer"
+                }
+            ]
+        },
+        "Foyer": {
+            "Name": "Foyer",
+            "Body": "Stepping through the massive doors, you find yourself standing in the foyer of Everglen Manor—a space that seemed frozen in time yet alive with a subtle energy. The room was vast, its high ceiling disappearing into shadows above, adorned with an ornate chandelier that hung like a crystal constellation. Before you is the dining room. To your left is the study. To your right is a staircase leading to the master bedroom. Where will you go?",
+            "Choices": [
+                {
+                    "Text": "Dining room",
+                    "Target": "Dining room"
+                },
+                {
+                    "Text": "Study",
+                    "Target": "Study"
+                },
+                {
+                    "Text": "Master bedroom",
+                    "Target": "Master bedroom"
+                },
+                {
+                    "Text": "Go back to the front gate",
+                    "Target": "Front Gate"
+                }
+            ]
+        },
+        "Dining room": {
+            "Name": "Dining room",
+            "Body": "The walls are adorned with rich tapestries depicting pastoral scenes, their colors softened by time. Tall, regal cabinets stood against one wall, displaying fine china and silverware behind glass doors, a testament to generations of refined taste and opulent dining. Overhead, a magnificent crystal chandelier bathed the space in a warm, golden glow. From afar, you spot a book laying open on the long, polished wooden table. And to your left is a door to the kitchen. To your right is a door to the garden.",
+            "Choices": [
+                {
+                    "Text": "Take a closer look at the book",
+                    "Target": "Dining room book"
+                },
+                {
+                    "Text": "Go to the kitchen",
+                    "Target": "Kitchen"
+                },
+                {
+                    "Text": "Go to the garden",
+                    "Target": "Garden"
+                },
+                {
+                    "Text": "Go back to the foyer",
+                    "Target": "Foyer"
+                }
+            ]
+        },
+        "Study": {
+            "Name": "Study",
+            "Body": "In the center of the room, a large mahogany desk commanded attention, its surface adorned with a scattering of old maps, quill pens, and an ornate brass inkwell. The desk lamp cast a warm glow over stacks of parchment and neatly organized documents, creating pockets of light and shadow that danced across the room. One book particularly stands out amidst the scatter. Out of the corner of your eye, you see an old door that is slightly ajar. Upon opening the door, you discover a staircase",
+            "Choices": [
+                {
+                    "Text": "Go down the staircase",
+                    "Target": "Forgotten library"
+                },
+                {
+                    "Text": "Go back to the foyer",
+                    "Target": "Foyer"
+                }
+            ]
+        },
+        "Master bedroom": {
+            "Name": "Master bedroom",
+            "Body": "The master bedroom of Everglen Manor was a chamber of quiet elegance and faded luxury. Upon entering through intricately carved double doors, you are greeted by a vast and regal space that spoke of a time when comfort and opulence were paramount. On the bed, a book lay open. In the corner of the room is a door.",
+            "Choices": [
+                {
+                    "Text": "Take a closer look at the book",
+                    "Target": "Master bedroom book"
+                },
+                {
+                    "Text": "Go through the door",
+                    "Target": "Bathroom"
+                },
+                {
+                    "Text": "Go back to the foyer",
+                    "Target": "Foyer"
+                }
+            ]
+        },
+        "Kitchen": {
+            "Name": "Kitchen",
+            "Body": "The kitchen was expansive, filled with sturdy wooden tables and gleaming copper pots hanging from racks overhead. Large windows allowed natural light to illuminate the room, casting a soft glow over the rows of ceramic jars filled with spices and herbs. On the kitchen counter lay open a book.",
+            "Choices": [
+                {
+                    "Text": "Take a closer look at the book",
+                    "Target": "Kitchen book"
+                },
+                {
+                    "Text": "Go back to the dining room",
+                    "Target": "Dining room"
+                }
+            ]
+        },
+        "Garden": {
+            "Name": "Garden",
+            "Body": "Stepping through an archway draped with climbing roses, you find yourself in a world of enchantment. Paths of crushed gravel wound gracefully through meticulously manicured lawns, bordered by beds bursting with a riot of colorful blooms. Roses, peonies, and hydrangeas mingled with fragrant herbs like lavender and rosemary, filling the air with their sweet perfume. In the distance you hear the sound of trickling water.",
+            "Choices": [
+                {
+                    "Text": "Go back to the dining room",
+                    "Target": "Dining room"
+                },
+                {
+                    "Text": "Go towards the sound of the water",
+                    "Target": "Enchanted fountain"
+                }
+            ]
+        },
+        "Forgotten library": {
+            "Name": "Forgotten library",
+            "Body": "You navigate through a labyrinthine series of corridors, their walls lined with faded tapestries and portraits of long-departed ancestors. You enter what appears to be a library. The atmosphere changed abruptly. Dust motes danced in shafts of sunlight that filtered through tall, arched windows, casting a soft glow over rows upon rows of towering bookshelves. These shelves, made of dark oak and lined with volumes of varying sizes and ages, seemed to stretch endlessly into the dim recesses of the room. The air was heavy with the musty scent of old paper and leather bindings, mingling with the faint aroma of dried herbs used in preservation. Cobwebs adorned corners and alcoves, testifying to the library's neglect, yet adding to its mysterious allure. You see a book jutting out of one of the many bookshelves.",
+            "Choices": [
+                {
+                    "Text": "Go back to the study",
+                    "Target": "Study"
+                },
+                {
+                    "Text": "Take a closer look at the book",
+                    "Target": "Door to secret chamber"
+                }
+            ]
+        },
+        "Bathroom": {
+            "Name": "Bathroom",
+            "Body": "Stepping through a set of polished wooden doors, you enter a space that exuded an air of timeless elegance. The focal point of the room was a large, clawfoot bathtub positioned beneath a frosted glass window, allowing soft natural light to filter through. The bathtub was adorned with gleaming chrome fixtures and surrounded by mosaic tiles in muted earth tones, creating a sense of tranquility.",
+            "Choices": [
+                {
+                    "Text": "Go back to the master bedroom",
+                    "Target": "Master bedroom"
+                }
+            ]
+        },
+        "Enchanted fountain": {
+            "Name": "Enchanted fountain",
+            "Body": "Nestled among a grove of ancient trees, lay a fountain—a marvel of beauty and mystery. Water cascaded from the fountain's sculpted tiers, shimmering in the dappled sunlight that filtered through the surrounding foliage. As you approach, you feel a whisper of something ancient and mystical that seemed to emanate from the very heart of the fountain. Legends spoke of wishes granted and secrets unveiled to those who dared to sit by its side and listen to the soft murmur of its waters.",
+            "Choices": [
+                {
+                    "Text": "Go back to the garden",
+                    "Target": "Garden"
+                },
+                {
+                    "Text": "Throw in a coin",
+                    "Target": "1 coin"
+                },
+                {
+                    "Text": "Throw in 2 coins",
+                    "Target": "2 coins"
+                },
+                {
+                    "Text": "Throw in 3 coins",
+                    "Target": "3 coins"
+                },
+                {
+                    "Text": "Throw in 4 coins",
+                    "Target": "4 coins"
+                },
+                {
+                    "Text": "Throw in 5 coins",
+                    "Target": "5 coins"
+                }
+            ]
+        },
+        "1 coin": {
+            "Name": "1 coin",
+            "Body": "Beneath the main building lies a network of secret passageways and tunneLs, rumored to have been used by generatIons of inhaBitants for clandestine meetings and escapes duRing times of intrigue. These hidden pAssages, concealed behind false walls and disguised entrances, add an air of mysteRy and adventure to the manor's rich history, waiting to be explored bY those daring enough to uncover their secrets.",
+            "Choices": [
+                {
+                    "Text": "Go back",
+                    "Target": "Enchanted fountain"
+                }
+            ]
+        },
+        "2 coins": {
+            "Name": "2 coins",
+            "Body": "Bound in a luxurious and evocative fabric that feels soft to the touch, a deep, rich shade reminiscent of the night sky just before dawn, the cover bears intricate embossing of mystical symbols and sigils, hinting at the power contained within its pages.",
+            "Choices": [
+                {
+                    "Text": "Go back",
+                    "Target": "Enchanted fountain"
+                }
+            ]
+        },
+        "3 coins": {
+            "Name": "3 coins",
+            "Body": "Lady Elara Ashbourne, a renowned botanist and herbalist who resided in the manor during the late 19th century. Lady Elara was known throughout the region for her extensive knowledge of plants and their medicinal properties. Legend has it that Lady Elara cultivated a remarkable garden on the manor grounds, filled with rare and exotic botanical specimens from around the world. She was particularly fascinated by the study of herbs and their healing properties, often venturing into the surrounding forests to gather specimens for her experiments. Lady Elara was said to have a deep connection with nature and believed in the mystical properties of certain plants. It was rumored that she possessed a special ability to communicate with the flora that surrounded her. Despite her reclusive nature, Lady Elara was known for her generosity in sharing her knowledge of herbal remedies with those in need. She treated ailments ranging from common colds to more serious maladies, using her garden as a living pharmacy. Her legacy lived on in the whispers of the wind through the trees and the lingering scent of her cherished blooms. Lady Elara's mystical garden became a symbol of healing and wonder, forever intertwined with the history and enchantment of this manor.",
+            "Choices": [
+                {
+                    "Text": "Go back",
+                    "Target": "Enchanted fountain"
+                }
+            ]
+        },
+        "4 coins": {
+            "Name": "4 coins",
+            "Body": "Hmmm...a faint scent of ancient herbs and spices",
+            "Choices": [
+                {
+                    "Text": "Go back",
+                    "Target": "Enchanted fountain"
+                }
+            ]
+        },
+        "5 coins": {
+            "Name": "5 coins",
+            "Body": "Pay attention to the subtle signs of magic that seem woven into the very fabric of the manor, hinting at mysteries waiting to be unraveled. Trust your instincts and tread carefully, for the heart of Everglen Manor holds secrets that are both haunting and enchanting, waiting for a curious soul to bring them to light.",
+            "Choices": [
+                {
+                    "Text": "Go back",
+                    "Target": "Enchanted fountain"
+                }
+            ]
+        },
+        "Door to secret chamber": {
+            "Name": "Door to secret chamber",
+            "Body": "A hidden door, concealed from casual view amidst the rows of leather-bound tomes and dusty manuscripts. Crafted from solid oak, its surface weathered by time yet bearing ornate carvings of mystical symbols and intricate patterns. To the right of the door, a small rectangle is carved out.",
+            "Choices": [
+                {
+                    "Text": "Try to open the door",
+                    "Target": "Door locked"
+                },
+                {
+                    "Text": "Place book in carved out rectangle",
+                    "Target": "Secret chamber"
+                }
+            ]
+        },
+        "Door locked": {
+            "Name": "Door locked",
+            "Body": "The door appears to be locked.",
+            "Choices": [
+                {
+                    "Text": "Go back",
+                    "Target": "Forgotten library"
+                }
+            ]
+        },
+        "Dining room book": {
+            "Name": "Dining room book",
+            "Body": "Echoes of Everglen. The book is crafted from aged wood, polished to a rich sheen that gleams softly. Intricate carvings adorn the front, depicting scenes of the manor's gardens and towering architecture, while delicate brass hinges secure the volume's contents. Sketches and watercolor illustrations grace the pages, capturing the beauty of Everglen Manor in its various seasons. Detailed maps of the estate's grounds are interspersed with notes and observations, revealing hidden paths and secret gardens known only to the manor's residents. The scent of wax wafts through the air as you flip through its pages.",
+            "Choices": [
+                {
+                    "Text": "Put book down",
+                    "Target": "Dining room"
+                },
+                {
+                    "Text": "Take book with you",
+                    "Target": "Dining room"
+                }
+            ]
+        },
+        "Kitchen book": {
+            "Name": "Kitchen book",
+            "Body": "The Tome of Shadows, bound in midnight-blue velvet adorned with silver filigree, emanates an aura of both allure and caution. Upon opening the Tome of Shadows, one is met with pages crafted from parchment so delicate it seems almost ethereal, bearing intricate script inscribed in shimmering ink that dances with a life of its own. The text within tells of forgotten rituals, celestial alignments, and otherworldly realms beyond mortal comprehension. Illustrations within the Tome of Shadows are a blend of esoteric symbols and haunting sketches, depicting celestial bodies in alignment, mystical sigils of power, and enigmatic beings from realms unseen. The artwork seems to shift and flicker under the light, revealing hidden depths and secrets to those who dare to gaze upon them. The air around the Tome of Shadows carries a faint scent of ancient herbs and spices, as if the very essence of magic has infused the pages over centuries of study and reverence.",
+            "Choices": [
+                {
+                    "Text": "Put book down",
+                    "Target": "Kitchen"
+                },
+                {
+                    "Text": "Take the book with you",
+                    "Target": "Kitchen"
+                }
+            ]
+        },
+        "Master bedroom book": {
+            "Name": "Master bedroom book",
+            "Body": "Whispers of Time. The book's cover is crafted from supple, dove-gray linen adorned with intricate silver embroidery, depicting delicate floral motifs that shimmer in the soft lamplight. The edges of the pages are gilded with a hint of silver, adding a touch of understated opulence to its appearance. Pages of creamy vellum, each one bearing elegant calligraphy penned in deep indigo ink. The prose within is a collection of romantic verses, philosophical reflections, and lyrical passages that speak to the soul. Interspersed throughout the book are pressed blooms—dried lavender, rose petals, and forget-me-nots—fragrant remnants of seasons past, each carefully placed as a gentle reminder of fleeting beauty and enduring sentiment.",
+            "Choices": [
+                {
+                    "Text": "Put book down",
+                    "Target": "Master bedroom"
+                },
+                {
+                    "Text": "Take book with you",
+                    "Target": "Master bedroom"
+                }
+            ]
+        },
+        "Secret chamber": {
+            "Body": "Upon opening the door, you are greeted by a dimly lit corridor that winds away into darkness. The air is cool and musty, carrying echoes of whispers from ages past. Flickering candle sconces line the walls, casting dancing shadows that seem to play tricks on the mind. As you step through this threshold, you feel as though you are venturing into the heart of Everglen Manor's enigma—a realm where forgotten tales and hidden truths await discovery. The door behind the bookshelf is a gateway to adventure, promising untold wonders for those bold enough to venture beyond. I wonder what awaits you."
+        }
+    }
+}
